@@ -1,0 +1,92 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("MAP_AutomationPractise_Smoketest.feature");
+formatter.feature({
+  "line": 2,
+  "name": "User to signin, place orders and navigate to different pages in Automation Practise website",
+  "description": "Contains 19 scenarios like clicking signIn button, entering email, duplicate email and click submit",
+  "id": "user-to-signin,-place-orders-and-navigate-to-different-pages-in-automation-practise-website",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@EnterEmailToSignUP"
+    }
+  ]
+});
+formatter.scenario({
+  "line": 6,
+  "name": "User verify system info",
+  "description": "",
+  "id": "user-to-signin,-place-orders-and-navigate-to-different-pages-in-automation-practise-website;user-verify-system-info",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "user prefers to launch chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "User verify Amazon",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.user_prefers_to_launch_chrome_browser()"
+});
+formatter.result({
+  "duration": 18838496670,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_verify_system_info()"
+});
+formatter.result({
+  "duration": 4149238743,
+  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d71.0.3578.98)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RCCHN0112\u0027, ip: \u0027172.28.112.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\Prem\\AppData\\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 512a17699bda29d75633279e633a53c4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.maven.stepdefinition.StepDefinitions.user_verify_system_info(StepDefinitions.java:54)\r\n\tat ✽.When User verify Amazon(MAP_AutomationPractise_Smoketest.feature:8)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "User verify system info",
+  "description": "",
+  "id": "user-to-signin,-place-orders-and-navigate-to-different-pages-in-automation-practise-website;user-verify-system-info",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@tag2"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "user prefers to launch chrome browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 14,
+  "name": "User verify facebook",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.user_prefers_to_launch_chrome_browser()"
+});
+formatter.result({
+  "duration": 13521224406,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepDefinitions.user_verify_fa()"
+});
+formatter.result({
+  "duration": 12933538730,
+  "status": "passed"
+});
+});
